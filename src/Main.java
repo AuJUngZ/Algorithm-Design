@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(UniqeChar.uniqueChar("hello",0,new java.util.HashSet<Character>()));
+//        int[] db = new int[100];
+//        System.out.println(PascalTriangle.pascalTriangle(db, 5, 2));
+        System.out.println(PascalTriangle.generate(5));
     }
 }
