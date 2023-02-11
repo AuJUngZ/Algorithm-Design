@@ -1,3 +1,5 @@
+package Midterm;
+
 public class RodCuttingProblem {
     public static int findMaxValue(int rodLength, int[] prices, int[] maxValues,int[] cuts) {
         if (maxValues[rodLength] != 0) {

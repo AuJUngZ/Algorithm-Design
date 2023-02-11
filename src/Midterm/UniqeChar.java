@@ -1,3 +1,5 @@
+package Midterm;
+
 import java.util.Set;
 
 public class UniqeChar {

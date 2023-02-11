@@ -1,3 +1,5 @@
+package Midterm;
+
 public class InsertionSort {
     public static void insertionSort(int[] A,int n){
         if(n == 0){

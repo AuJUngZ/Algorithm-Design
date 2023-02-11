@@ -1,3 +1,5 @@
+package Midterm;
+
 public class FindMax {
     public static int Incremental(int[] x,int n) {
         if(n <= 0){

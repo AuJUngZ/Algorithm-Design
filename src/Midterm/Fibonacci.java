@@ -1,3 +1,5 @@
+package Midterm;
+
 public class Fibonacci {
     public static long Fib(int n) {
         if (n == 0 || n == 1) {

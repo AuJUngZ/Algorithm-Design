@@ -1,3 +1,5 @@
+package Midterm;
+
 public class Knapsack {
     public static int knapsack(int[] weights, int[] values,int n, int c) {
         int[][] dp = new int[n + 1][c + 1];

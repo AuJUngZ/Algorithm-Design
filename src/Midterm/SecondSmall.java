@@ -1,3 +1,5 @@
+package Midterm;
+
 public class SecondSmall {
     public static int secondSmall(int[] A, int n, int min, int secondMin){
         if(n == 0){

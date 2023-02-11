@@ -1,3 +1,5 @@
+package Midterm;
+
 public class BestTimeToBuyAndSell {
     public static int maxProfit(int[] prices){
         int max = 0;

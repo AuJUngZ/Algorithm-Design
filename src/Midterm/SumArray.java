@@ -1,3 +1,5 @@
+package Midterm;
+
 public class SumArray {
     public static int sumArray(int[] A , int n ){
         if(n <= 1){

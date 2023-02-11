@@ -1,3 +1,5 @@
+package Midterm;
+
 public class mergeSort {
     public static void mergeSort(int[] A) {
         int length = A.length;
@@ -17,6 +19,31 @@ public class mergeSort {
         mergeSort(left);
         mergeSort(right);
         merge(left, right, A);
+    }
+
+    public static void Exam(int[] A,int s,int e){
+        if(e-s == 3){
+            if(A[s] > A[s+1]){
+                int temp = A[s];
+                A[s] = A[s+1];
+                A[s+1] = temp;
+            }
+            if(A[s+1] > A[s+2]){
+                int temp = A[s+1];
+                A[s+1] = A[s+2];
+                A[s+2] = temp;
+            }
+            if(A[s] > A[s+1]){
+                int temp = A[s];
+                A[s] = A[s+1];
+                A[s+1] = temp;
+            }
+        }else{
+            int mid = (s+e)/2;
+            Exam(A,s,mid);
+            Exam(A,mid+1,e);
+            aujungMerge(A,s,mid,e);
+        }
     }
     private static void merge(int[] left, int[] right, int[] arr) {
         int leftLength = left.length;

@@ -1,3 +1,5 @@
+package Midterm;
+
 public class LIS {
     public static int lis(int[] arr, int[] db, int n) {
         if(n == 0){

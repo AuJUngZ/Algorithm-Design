@@ -1,3 +1,5 @@
+package Midterm;
+
 import java.util.ArrayList;
 public class SmallestSetOfIntervals {
     public static ArrayList<String> smallestSetOfIntervals(double[] x) {

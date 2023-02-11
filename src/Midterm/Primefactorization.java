@@ -1,3 +1,4 @@
+package Midterm;
 
 public class Primefactorization {
     public int number;

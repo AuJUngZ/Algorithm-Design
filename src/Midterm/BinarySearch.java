@@ -1,3 +1,5 @@
+package Midterm;
+
 public class BinarySearch {
     public static int binarySearch(int[] A, int start,int end,int key){
         if(start == end){

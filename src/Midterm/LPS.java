@@ -1,3 +1,5 @@
+package Midterm;
+
 public class LPS {
     public static String longestPalindrome(String s){
         String result = "";
